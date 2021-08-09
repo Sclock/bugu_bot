@@ -1,14 +1,14 @@
 Metadata-Version: 2.1
-Name: gugua-bot
-Version: 1.1
+Name: bugu-bot
+Version: 1.0
 Summary: 适用于nb的孤寡机器人插件
-Home-page: https://github.com/Sclock/gugua
+Home-page: https://github.com/Sclock/bugu_bot
 Author: Sclock
 Author-email: 1342810270@qq.com
 License: UNKNOWN
 Description: <div align="center">
         
-        # 孤寡机器人,让你的孤寡朋友露出阳光的笑容
+        # 布谷机器人,增进你和你单身朋友的友谊
         
         </div>
         
@@ -23,8 +23,6 @@ Description: <div align="center">
         ![avatar](/图/拉人.png)
         
         - 最后,邀请受害人加入本群即可(小于 50 不需要同意哦！)
-        
-        ![avatar](/图/被迫害.jpg)
         
 Platform: UNKNOWN
 Description-Content-Type: text/markdown

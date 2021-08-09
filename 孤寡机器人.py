@@ -3,10 +3,10 @@ from asyncio import sleep
 from nonebot import on_notice
 from nonebot.adapters.cqhttp import Bot, Event
 
-gugua = on_notice(priority=5)
+bugu = on_notice(priority=5)
 
 
-@gugua.handle()
+@bugu.handle()
 async def message_discernment_handle(bot: Bot, event: Event):
     print(f'检测到事件:{event.notice_type}')
     if event.notice_type == 'group_increase':
@@ -17,17 +17,19 @@ async def message_discernment_handle(bot: Bot, event: Event):
 
         await gugua.send('您好我是您朋友给您点的孤寡青蛙')
         await sleep(0.5)
-        await gugua.send('我要开始叫了')
+        await gugua.send('祝您在新的一年里')
         await sleep(0.5)
-        await gugua.send('孤寡孤寡孤寡孤寡孤寡孤寡孤寡孤')
+        await gugua.send('布谷布谷布谷布谷布谷布谷布谷布谷')
         await sleep(0.5)
-        await gugua.send('寡孤寡孤寡孤寡孤寡孤寡孤寡孤寡')
+        await gugua.send('不孤不孤不孤不孤不孤不孤不孤不孤')
         await sleep(0.5)
-        await gugua.send('寡孤寡孤寡孤寡孤寡孤寡孤寡孤寡')
+        await gugua.send('布谷布谷布谷布谷布谷布谷布谷布谷')
         await sleep(0.5)
-        await gugua.send('寡孤寡孤寡孤寡孤寡孤寡孤寡孤寡')
+        await gugua.send('不孤不孤不孤不孤不孤不孤不孤不孤')
         await sleep(0.5)
-        await gugua.send('寡孤寡孤寡孤寡孤寡孤寡孤寡孤寡')
+        await gugua.send('布谷布谷布谷布谷布谷布谷布谷布谷')
+        await sleep(0.5)
+        await gugua.send('不孤不孤不孤不孤不孤不孤不孤不孤')
         await sleep(0.5)
         await gugua.send('服务完毕,欢迎您明年再来')
 
